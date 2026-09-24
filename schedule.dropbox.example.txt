@@ -1,0 +1,29 @@
+# Example schedule for Dropbox hosting
+#
+# Rename this to schedule.txt if you are using Dropbox instead of GitHub, and
+# set  #define CONTENT_BASE ""  in config.h.
+#
+# The difference from the GitHub version is that each line carries the whole
+# link instead of just a filename. Dropbox gives every single file its own
+# random address, so there is no shared folder path to build on - you have to
+# paste each one in full.
+#
+# To get a link: right-click the file in Dropbox -> Copy link. That gives you
+# something ending in "&dl=0". Change that 0 to a 1. Without it you get the
+# Dropbox preview web page rather than the image, and the sign will tell you
+# "That file is not a BMP".
+#
+# Check every link by pasting it into a browser first. It should download or
+# show the image immediately, with no Dropbox page around it.
+#
+# The links below are made up - replace them with your own.
+
+WEEKDAY 08:00-12:00  https://www.dropbox.com/scl/fi/aaaa1111/in-office.bmp?rlkey=k1&dl=1
+WEEKDAY 12:00-13:00  https://www.dropbox.com/scl/fi/bbbb2222/at-lunch.bmp?rlkey=k2&dl=1
+WEEKDAY 13:00-17:00  https://www.dropbox.com/scl/fi/aaaa1111/in-office.bmp?rlkey=k1&dl=1
+WEEKDAY 17:00-24:00  https://www.dropbox.com/scl/fi/cccc3333/gone-for-day.bmp?rlkey=k3&dl=1
+WEEKDAY 00:00-08:00  https://www.dropbox.com/scl/fi/cccc3333/gone-for-day.bmp?rlkey=k3&dl=1
+WEEKEND 00:00-24:00  https://www.dropbox.com/scl/fi/dddd4444/weekend.bmp?rlkey=k4&dl=1
+
+# Safety net. Keep a catch-all last so there is never a time with no image.
+ALL     00:00-24:00  https://www.dropbox.com/scl/fi/eeee5555/default.bmp?rlkey=k5&dl=1
