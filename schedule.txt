@@ -15,12 +15,12 @@
 # pushing to GitHub is all it takes - the board never needs re-flashing.
 
 
-WEEKDAY 08:00-12:00  https://www.dropbox.com/scl/fi/aq0hp608fteoabhgp2lui/default.bmp?rlkey=f6vxe75200orzu55ihlbzfzy3&dl=1
-WEEKDAY 12:00-13:00  https://www.dropbox.com/scl/fi/yj9uuikmw8ir9cqr6j1wd/at-lunch.bmp?rlkey=5x09xpo5ogy9281s9135uogt9&dl=1
-WEEKDAY 13:00-17:00  https://www.dropbox.com/scl/fi/crkpxllial70kt50j8nhy/door-sign.bmp?rlkey=dwox283nss7mguwd4iwmojmdi&dl=1
-WEEKDAY 17:00-24:00  https://www.dropbox.com/scl/fi/85qfq6tryeakig96ruvx1/in-office.bmp?rlkey=033suyuni5xdw70r7wpjdocsq&dl=1
-WEEKDAY 00:00-08:00  https://www.dropbox.com/scl/fi/85qfq6tryeakig96ruvx1/in-office.bmp?rlkey=033suyuni5xdw70r7wpjdocsq&dl=1
-WEEKEND 00:00-24:00  https://www.dropbox.com/scl/fi/85qfq6tryeakig96ruvx1/in-office.bmp?rlkey=033suyuni5xdw70r7wpjdocsq&dl=1
+WEEKDAY 08:00-12:00  default.bmp
+WEEKDAY 12:00-13:00  at-lunch.bmp
+WEEKDAY 13:00-17:00  door-sign.bmp
+WEEKDAY 17:00-24:00  in-office.bmp
+WEEKDAY 00:00-08:00  in-office.bmp
+WEEKEND 00:00-24:00  in-office.bmp
 
 # Safety net. Keep this line last so there is never a time with no image.
-ALL     00:00-24:00  https://www.dropbox.com/scl/fi/aq0hp608fteoabhgp2lui/default.bmp?rlkey=f6vxe75200orzu55ihlbzfzy3&dl=1
+ALL     00:00-24:00  default.bmp
