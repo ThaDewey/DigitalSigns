@@ -14,13 +14,8 @@
 # The sign re-reads this file every time it wakes, so editing it here and
 # pushing to GitHub is all it takes - the board never needs re-flashing.
 
-
-WEEKDAY 08:00-12:00  default.bmp
-WEEKDAY 12:00-13:00  at-lunch.bmp
-WEEKDAY 13:00-17:00  door-sign.bmp
-WEEKDAY 17:00-24:00  in-office.bmp
-WEEKDAY 00:00-08:00  in-office.bmp
-WEEKEND 00:00-24:00  in-office.bmp
+MON,WED 12:00-15:00  door-sign-office-hours.bmp
+MON,WED 15:00-18:00  door-sign-teaching-class.bmp
 
 # Safety net. Keep this line last so there is never a time with no image.
-ALL     00:00-24:00  default.bmp
+ALL     00:00-24:00  door-sign-default.bmp
